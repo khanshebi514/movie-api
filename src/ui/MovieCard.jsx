@@ -15,16 +15,14 @@ export default function MovieCard({ products }) {
         </thead>
         <tbody>
           {
+          
           products.map((movie, index) => (
-           <Link href={``} key={index} >
-            <tr  className="border-b text-black hover:bg-gray-100">
+            <tr key={index} className="border-b text-black hover:bg-gray-100 cursor-pointer" onClick={''}>
               <td className="py-3 px-6">{movie.title}</td>
               <td className="py-3 px-6">{movie.genre}</td>
               <td className="py-3 px-6">{movie.year}</td>
               <td className="py-3 px-6">{movie.rating}</td>
             </tr>
-            </Link>
-           
           ))}
         </tbody>
       </table>

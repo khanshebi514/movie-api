@@ -29,11 +29,7 @@ export const CATEGORIES = [
         imageUrl:'/home/container (4).png',
         title:'horror'
     },
-    {
-        key:'6',
-        imageUrl:'/home/container.png',
-        title:'Action'
-    }
+   
 
 ]
 

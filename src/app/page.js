@@ -13,6 +13,7 @@ export default function Home() {
       <VideoCategories/>
       <DevicesSection/>
       <PricePlanSection/>
+      
     </main>
   );
 }

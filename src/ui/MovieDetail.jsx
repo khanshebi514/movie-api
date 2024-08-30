@@ -8,14 +8,18 @@ export default function MovieDetail({products}) {
             <th className="py-3 px-6 text-left">Genre</th>
             <th className="py-3 px-6 text-left">Year</th>
             <th className="py-3 px-6 text-left">Rating</th>
+            <th className="py-3 px-6 text-left">Duration</th>
+            <th className="py-3 px-6 text-left">Box office Collection</th>
           </tr>
         </thead>
         <tbody>
-          <tr className="border-b text-black hover:bg-gray-100 cursor-pointer">
+          <tr className="border-b text-black hover:bg-gray-100">
             <td className="py-3 px-6">{products.title}</td>
             <td className="py-3 px-6">{products.genre}</td>
             <td className="py-3 px-6">{products.year}</td>
             <td className="py-3 px-6">{products.rating}</td>
+            <td className="py-3 px-6">{products.runtime}</td>
+            <td className="py-3 px-6">{products.boxOffice}</td>
           </tr>
         </tbody>
       </table>

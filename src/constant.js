@@ -6,27 +6,27 @@ import { BsHeadsetVr } from "react-icons/bs";
 export const CATEGORIES = [
     {
         key:'1',
-        imageUrl:'/home/container.png',
+        imageUrl:'/home/Container.png',
         title:'Action'
     },
     {
         key:'2',
-        imageUrl:'/home/container (1).png',
+        imageUrl:'/home/Container-1.png',
         title:'Advanture'
     },
     {
         key:'3',
-        imageUrl:'/home/container (2).png',
+        imageUrl:'/home/Container-2.png',
         title:'Comedy'
     },
     {
         key:'4',
-        imageUrl:'/home/container (3).png',
+        imageUrl:'/home/Container-3.png',
         title:'Drama'
     },
     {
         key:'5',
-        imageUrl:'/home/container (4).png',
+        imageUrl:'/home/Container-4.png',
         title:'horror'
     },
    
